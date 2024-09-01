@@ -1,0 +1,29 @@
+.hero {
+  margin-bottom: 40px;
+}
+
+.hero-image {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.omelette-recipe {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.omelette-recipe .title {
+  font-family: "Young Serif", serif;
+  font-size: 40px;
+  color: var(--DarkCharcoal);
+}
+
+.omelette-recipe .description {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  color: var(--WengeBrown);
+}
