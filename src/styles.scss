@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  --DarkCharcoal: #312e2c;
+  --DarkRaspberry: #7a284e;
+  --BrandyRed: #854632;
+  --WengeBrown: #5f564d;
+  --EggShell: #f3e5d7;
+  --WhiteCoffee: #e3ddd7;
+  --Snow: #fff7fb;
+  --White: #ffffff;
+}
+
+// Rest Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+
+body {
+  background-color: var(--EggShell);
+}
