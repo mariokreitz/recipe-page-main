@@ -171,3 +171,24 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .hero {
+    margin-bottom: unset;
+
+    .hero-image {
+      height: 171px;
+      border-radius: unset;
+    }
+  }
+
+  main {
+    padding: 40px 32px;
+
+    .omelette-recipe {
+      .title {
+        font-size: 36px;
+      }
+    }
+  }
+}
