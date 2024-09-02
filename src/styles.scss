@@ -38,10 +38,8 @@ body {
 }
 
 .wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 123px;
+  margin-inline: auto;
   max-width: 736px;
   background-color: var(--White);
   border-radius: 24px;
