@@ -1,4 +1,4 @@
-# Recipe Page
+# Recipe Page [![Netlify Status](https://api.netlify.com/api/v1/badges/71922410-3ecb-4d40-ab43-10c956942f18/deploy-status)](https://app.netlify.com/sites/simple-recipe-page-fm/deploys)
 
 ![Recipe Page Screenshot](https://raw.githubusercontent.com/mariokreitz/recipe-page-main/main/src/preview.jpg)
 
