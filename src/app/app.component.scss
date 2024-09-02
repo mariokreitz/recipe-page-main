@@ -129,3 +129,44 @@
     }
   }
 }
+
+.nutrition {
+  .nutrition-headline {
+    color: var(--BrandyRed);
+    font-family: "Young Serif", serif;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 24px;
+  }
+
+  .nutrition-description {
+    color: var(--WengeBrown);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    tr {
+      border-bottom: 1px solid var(--WhiteCoffee);
+
+      td {
+        padding-left: 32px;
+        padding-block: 12px;
+
+        &.amount {
+          color: var(--BrandyRed);
+          font-weight: bold;
+        }
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
