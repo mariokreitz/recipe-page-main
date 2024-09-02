@@ -95,3 +95,27 @@
   margin-block: 32px;
   border: 1px solid var(--WhiteCoffee);
 }
+
+.instructions {
+  .instructions-headline {
+    color: var(--BrandyRed);
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 24px;
+  }
+
+  ol {
+    padding-left: 22px;
+
+    li {
+      color: var(--WengeBrown);
+      font-size: 16px;
+      line-height: 1.5;
+
+      &::marker {
+        color: var(--DarkRaspberry);
+        font-weight: 600;
+      }
+    }
+  }
+}
