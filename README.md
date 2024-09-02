@@ -1,6 +1,6 @@
 # Recipe Page
 
-![Recipe Page Screenshot](./screenshot.png)
+![Recipe Page Screenshot](https://raw.githubusercontent.com/mariokreitz/recipe-page-main/main/src/preview.jpg)
 
 ## 📋 Overview
 
