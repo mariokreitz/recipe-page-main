@@ -1,12 +1,12 @@
 .hero {
   margin-bottom: 40px;
-}
 
-.hero-image {
-  height: 300px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 12px;
+  .hero-image {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
 }
 
 .omelette-recipe {
@@ -14,18 +14,18 @@
   flex-direction: column;
   gap: 24px;
   margin-bottom: 32px;
-}
 
-.omelette-recipe .title {
-  font-family: "Young Serif", serif;
-  font-size: 40px;
-  color: var(--DarkCharcoal);
-}
+  .title {
+    font-family: "Young Serif", serif;
+    font-size: 40px;
+    color: var(--DarkCharcoal);
+  }
 
-.omelette-recipe .description {
-  font-family: "Outfit", sans-serif;
-  font-size: 16px;
-  color: var(--WengeBrown);
+  .description {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    color: var(--WengeBrown);
+  }
 }
 
 .info {
@@ -36,57 +36,59 @@
   flex-direction: column;
   gap: 16px;
   margin-bottom: 32px;
+
+  .info-headline {
+    color: #7a284e;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  ul {
+    padding-left: 20px;
+
+    li {
+      padding-left: 20px;
+      color: var(--WengeBrown);
+      font-size: 16px;
+      line-height: 1.5;
+
+      &:nth-child(2) {
+        margin-block: 8px;
+      }
+
+      &::marker {
+        color: var(--DarkRaspberry);
+      }
+    }
+  }
 }
 
-.info .info-headline {
-  color: #7a284e;
-  font-weight: 600;
-  font-size: 20px;
-}
+.incredients {
+  .incredients-headline {
+    color: var(--BrandyRed);
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 24px;
+  }
 
-.info ul {
-  padding-left: 20px;
-}
+  ul {
+    padding-left: 20px;
 
-.info ul li {
-  padding-left: 20px;
-  color: var(--WengeBrown);
-  font-size: 16px;
-  line-height: 1.5;
-}
+    li {
+      padding-left: 16px;
+      color: var(--WengeBrown);
+      font-size: 16px;
+      line-height: 1.5;
 
-.info ul li:nth-child(2) {
-  margin-block: 8px;
-}
+      &::marker {
+        color: var(--DarkRaspberry);
+      }
 
-.info ul li::marker {
-  color: var(--DarkRaspberry);
-}
-
-.incredients-headline {
-  color: var(--BrandyRed);
-  font-size: 28px;
-  font-weight: normal;
-  margin-bottom: 24px;
-}
-
-.incredients ul {
-  padding-left: 20px;
-}
-
-.incredients ul li::marker {
-  color: var(--DarkRaspberry);
-}
-
-.incredients ul li {
-  padding-left: 16px;
-  color: var(--WengeBrown);
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.incredients ul li:not(:last-child) {
-  margin-bottom: 8px;
+      &:not(:last-child) {
+        margin-bottom: 8px;
+      }
+    }
+  }
 }
 
 .horizontal-line {
